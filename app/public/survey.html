@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>SpongeBob SquarePants Friend Finder Survey</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+    
+    <div class="jumbotron jumbotron-fluid">
+
+        <div class="container">
+            <h1 class="display-4">Spongebob Squarepants Portfolio Survey</h1>
+            <p class="lead">Who is your best friend in Bikini Bottom?</p>
+        </div>
+    
+        <br>
+        <br>
+        
+        <form>
+            
+            <div class="form-group">
+                <input id="name" type="text" class="form-control" placeholder="Name (Required)">
+            </div>
+            
+            <div class="form-group">
+                <input id="picture" type="text" class="form-control" placeholder="Profile Picture">
+            </div>
+            
+            <br>
+            <br>
+            
+            <div class="form-group">
+                <label for="question1">I am into electronics.</label>
+                <select class="form-control" id="quest1">
+                    <option value="empty"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            
+            <br>
+            
+            <div class="form-group">
+                <label for="question2">I have a passion for Karate.</label>
+                <select class="form-control" id="quest2">
+                    <option value="empty"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            
+            <br>
+            
+            <div class="form-group">
+                <label for="question3">I just want to be left alone.</label>
+                <select class="form-control" id="quest3">
+                    <option value="empty"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            
+            <br>
+            
+            <div class="form-group">
+                <label for="question4">I would do anything it takes to be successful.</label>
+                <select class="form-control" id="quest4">
+                    <option value="empty"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            
+            <br>
+            
+            <div class="form-group">
+                <label for="question5">I look at everything with a positive attitude.</label>
+                <select class="form-control" id="quest5">
+                    <option value="empty"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            
+            <br>
+            
+            <div class="form-group">
+                <label for="question6">I can accomplish anything through the power of science.</label>
+                <select class="form-control" id="quest6">
+                    <option value="empty"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            
+            <br>
+            
+            <div class="form-group">
+                <label for="question7">I am subpar at everything that I do.</label>
+                <select class="form-control" id="quest7">
+                    <option value="empty"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            
+            <br>
+            
+            <div class="form-group">
+                <label for="question8">Money rules the world and everything in it.</label>
+                <select class="form-control" id="quest8">
+                    <option value="empty"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            
+            <br>
+            
+            <div class="form-group">
+                <label for="question9">I don't say much, but my wisdom is beyond my years.</label>
+                <select class="form-control" id="quest9">
+                    <option value="empty"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            
+            <br>
+            
+            <div class="form-group">
+                <label for="question10">Sometimes there is nothing better than a lazy day.</label>
+                <select class="form-control" id="quest10">
+                    <option value="empty"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            
+        </form>
+        
+        <div class="text-center">
+            <button id="submitBtn" type="submit" class="btn btn-success btn-lg">Submit</button>
+        </div>
+        
+    </div>
+
+    <div id="modal" class="modal fade" role="dialog">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title">Your Best Friend</h1>
+                </div>
+                <div class="modal-body">
+                    <h2 id="bestFriend"></h2>
+                    <img id="bestFriendPhoto" src="#">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+        <footer>
+            
+            <div class="container">
+                <a href="./api/friends">Bikini Bottom Friends</a>
+                <br>
+                <a href="https://github.com/DAHuerta/Friend_Finder">Git Hub Repo</a>
+            </div>
+            
+        </footer>
+        
+        <script>
+            // javascript for front end
+    </script>
+</body>
+</html>
+
+<!-- have on click for each question -->
+<!-- prevent default -->
+<!-- grab values push to empty array -->
+<!-- create object for user data name, photo, scores -->
+<!-- post user object to back end -->
+<!-- modal pop window to display who match with -->
+    <!-- that data will come from the back end -->
