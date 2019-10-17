@@ -1,3 +1,26 @@
 body {
   background-image: url(../image/bikiniBottom.png);
 }
+
+#jumbo {
+  text-align: center;
+}
+
+.jumbotron-fluid {
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#text {
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+  padding-bottom: 50px;
+}
+
+.form-group {
+  width: 95%;
+  margin-left: 25px;
+}
