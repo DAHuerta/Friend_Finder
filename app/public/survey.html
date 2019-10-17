@@ -180,7 +180,7 @@
         </form>
         
         <div class="text-center">
-            <button id="submitBtn" type="submit" class="btn btn-success btn-lg">Submit</button>
+            <button id="submit" type="submit" class="btn btn-success btn-lg">Submit</button>
         </div>
         
     </div>
@@ -215,8 +215,15 @@
             
         </footer>
         
-        <script>
-            // javascript for front end
+    <script type="text/javascript">
+
+        $("#submit").on("click", function(event) {
+
+            event.preventDefault();
+
+            var authentic = true;
+        })
+            
     </script>
 </body>
 </html>
