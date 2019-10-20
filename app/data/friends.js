@@ -2,59 +2,61 @@ var friends = [
   {
     name: "Spongebob Squarepants",
     photo:
-      "https://dcmetrotheaterarts.com/wp-content/uploads/2017/12/SpongeBob_SquarePantscopy0.png",
+      "https://static.comicvine.com/uploads/square_small/11132/111325030/5880101-spongebob%20squarepants%20character.jpg",
     scores: [3, 5, 1, 3, 5, 2, 2, 1, 2, 1]
   },
   {
     name: "Patrick Star",
     photo:
-      "https://imagez.tmz.com/image/e2/o/2012/09/21/e26eed3923e154a9b26680ab2d3033e1_md.jpg",
+      "https://i.pinimg.com/600x315/8b/ba/ff/8bbaff0de3f479bb2e961deb01ce8660.jpg",
     scores: [1, 2, 1, 1, 4, 1, 4, 1, 1, 5]
   },
   {
     name: "Squidward Tentacles",
     photo:
-      "https://i.pinimg.com/originals/fc/20/d7/fc20d7ba75499df5113b2b3f94b87730.jpg",
+      "https://pbs.twimg.com/profile_images/552601830564560898/BBLyFrCE_400x400.jpeg",
     scores: [1, 1, 5, 3, 1, 2, 5, 3, 3, 3]
   },
   {
     name: "Sandy Cheeks",
     photo:
-      "https://topicimages.mrowl.com/large/gracie/spongebobsquar/thecharacters/sandycheeks_1.jpg",
+      "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-spongebob-squarepants-carolyn-lawrence.jpg",
     scores: [5, 5, 2, 4, 4, 5, 1, 3, 4, 1]
   },
   {
     name: "Mr. Krabs",
     photo:
-      "https://www.lifewire.com/thmb/R83AtLxKyYRbEzaoscsXoM0gO3k=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/spongebob-squarepants-nickelodeon-032916-1276x850-5bfecf8246e0fb0026823b0a.jpg",
+      "https://img9.apk.tools/300/1/b/4/com.Mesothelioma_Law_Firm.Insurance.Donate_Cars.alif_bata.spongebob_mr_krabs.png",
     scores: [1, 1, 3, 4, 3, 2, 3, 5, 3, 2]
   },
   {
     name: "Plankton",
     photo:
-      "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/121024981/original/973e1c3b779166ca18762fd7e7e77fe7a0b93949/say-anything-you-want-me-to-say-as-plankton-from-spongebob.jpg",
+      "http://en.spongepedia.org/images/5/55/SpongeBob_SquarePants_Sheldon_Plankton.jpg",
     scores: [5, 2, 4, 5, 2, 4, 4, 4, 2, 1]
   },
   {
     name: "Karen",
-    photo: "https://i.ytimg.com/vi/jFCfA0_ZL1s/hqdefault.jpg",
+    photo:
+      "http://en.spongepedia.org/images/7/7b/SpongeBob_SquarePants_Karen_Plankton.jpg",
     scores: [5, 1, 3, 3, 1, 3, 2, 3, 5, 3]
   },
   {
     name: "Mrs. Puff",
     photo:
-      "https://i.pinimg.com/originals/2a/f2/8d/2af28d4479f70bf6b8ba9cea70c7fa07.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGsWiN0h5-DwzgkBqdEfSNEV-cmaATn3fP18urK416BJ4SwjvH",
     scores: [3, 1, 2, 3, 3, 3, 2, 2, 4, 3]
   },
   {
     name: "Larry Lobster",
-    photo: "https://i.redd.it/ywqgpu6iv3931.jpg",
+    photo:
+      "https://a2-images.myspacecdn.com/images02/124/32fa48f0894140b1ab913b3ef646083d/full.jpg",
     scores: [1, 3, 1, 4, 4, 1, 1, 3, 2, 1]
   },
   {
     name: "Gary",
     photo:
-      "https://imagez.tmz.com/image/e2/o/2012/09/21/e26eed3923e154a9b26680ab2d3033e1_md.jpg",
+      "http://www.soidergi.com/wp-content/uploads/pi/thumb-pictures-of-gary-from-spongebob-vector-by-dashiesparkle-on-deviantart-x.jpg",
     scores: [3, 2, 3, 3, 4, 4, 2, 1, 5, 4]
   }
 ];
